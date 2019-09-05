@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>594</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777214</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="2">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_4">
+       <property name="minimumSize">
+        <size>
+         <width>173</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>173</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>扫描</string>
+       </property>
+       <property name="icon">
+        <iconset resource="basictransceiver.qrc">
+         <normaloff>:/images/bscan.png</normaloff>:/images/bscan.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton">
+       <property name="minimumSize">
+        <size>
+         <width>173</width>
+         <height>47</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>173</width>
+         <height>47</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>清空</string>
+       </property>
+       <property name="icon">
+        <iconset resource="basictransceiver.qrc">
+         <normaloff>:/images/clean.png</normaloff>:/images/clean.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_5">
+       <property name="minimumSize">
+        <size>
+         <width>173</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>173</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>关闭</string>
+       </property>
+       <property name="icon">
+        <iconset resource="basictransceiver.qrc">
+         <normaloff>:/images/close1.png</normaloff>:/images/close1.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_3">
+       <property name="minimumSize">
+        <size>
+         <width>173</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>173</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>断开</string>
+       </property>
+       <property name="icon">
+        <iconset resource="basictransceiver.qrc">
+         <normaloff>:/images/sharpicons_network-disconnect.png</normaloff>:/images/sharpicons_network-disconnect.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_6">
+       <property name="minimumSize">
+        <size>
+         <width>173</width>
+         <height>47</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>173</width>
+         <height>47</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>打开蓝牙</string>
+       </property>
+       <property name="icon">
+        <iconset resource="basictransceiver.qrc">
+         <normaloff>:/images/bluetooth.png</normaloff>:/images/bluetooth.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_2">
+       <property name="minimumSize">
+        <size>
+         <width>173</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>173</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>发送</string>
+       </property>
+       <property name="icon">
+        <iconset resource="basictransceiver.qrc">
+         <normaloff>:/images/send.png</normaloff>:/images/send.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_discoverable">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Courier New&quot;;</string>
+       </property>
+       <property name="text">
+        <string>对附近不可见</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="2" rowspan="3">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="1" column="0">
+      <widget class="QListWidget" name="list">
+       <property name="maximumSize">
+        <size>
+         <width>1000000</width>
+         <height>1000000</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QTextEdit" name="textEdit_info">
+       <property name="maximumSize">
+        <size>
+         <width>1000000</width>
+         <height>1000000</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;宋体&quot;;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>发送窗口</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="basictransceiver.qrc"/>
+ </resources>
+ <connections/>
+</ui>

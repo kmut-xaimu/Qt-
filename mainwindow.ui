@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1307</width>
+    <height>854</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>哈希加密DEMO</string>
+       </attribute>
+       <widget class="QTextEdit" name="textEdit_2">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>190</y>
+          <width>657</width>
+          <height>151</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>50</y>
+          <width>51</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>文件</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>240</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>哈希值</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>580</y>
+          <width>204</width>
+          <height>84</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>84</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>247</width>
+          <height>76</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Compare</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_code">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>680</y>
+          <width>209</width>
+          <height>37</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>191</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>230</width>
+          <height>37</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>MD5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>SHA1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>SHA224</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>SHA256</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>SHA384</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>SHA512</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>哈希文件搜索</string>
+       </attribute>
+       <widget class="QLabel" name="md5label">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>140</y>
+          <width>700</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>700</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>md5</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>150</y>
+          <width>601</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>601</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>MD5:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>100</y>
+          <width>671</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>671</width>
+          <height>18</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>File:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="filelabel">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>100</y>
+          <width>621</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>621</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>file</string>
+        </property>
+       </widget>
+       <widget class="QCommandLinkButton" name="commandLinkButton">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>670</y>
+          <width>185</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>185</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>打开MD5存放文件夹</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="dirlistWidget">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>330</y>
+          <width>256</width>
+          <height>192</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="exitlistWidget">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>350</y>
+          <width>256</width>
+          <height>192</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>串口助手</string>
+       </attribute>
+       <widget class="QDateTimeEdit" name="dateTimeEdit">
+        <property name="geometry">
+         <rect>
+          <x>1080</x>
+          <y>0</y>
+          <width>194</width>
+          <height>22</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>80</y>
+          <width>271</width>
+          <height>571</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QCommandLinkButton" name="commandLinkButton_2">
+           <property name="text">
+            <string>打开串口助手</string>
+           </property>
+           <property name="icon">
+            <iconset resource="basictransceiver.qrc">
+             <normaloff>:/images/USB.png</normaloff>:/images/USB.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCommandLinkButton" name="commandLinkButton_6">
+           <property name="text">
+            <string>运动检测DEMO</string>
+           </property>
+           <property name="icon">
+            <iconset resource="basictransceiver.qrc">
+             <normaloff>:/images/view.png</normaloff>:/images/view.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCommandLinkButton" name="commandLinkButton_7">
+           <property name="text">
+            <string>基于颜色的运动追踪DEMO</string>
+           </property>
+           <property name="icon">
+            <iconset resource="basictransceiver.qrc">
+             <normaloff>:/images/sport.png</normaloff>:/images/sport.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCommandLinkButton" name="commandLinkButton_3">
+           <property name="text">
+            <string>OpenCV人脸识别DEMO</string>
+           </property>
+           <property name="icon">
+            <iconset resource="basictransceiver.qrc">
+             <normaloff>:/images/face.png</normaloff>:/images/face.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCommandLinkButton" name="commandLinkButton_4">
+           <property name="text">
+            <string>蓝牙助手</string>
+           </property>
+           <property name="icon">
+            <iconset resource="basictransceiver.qrc">
+             <normaloff>:/images/bluetooth.png</normaloff>:/images/bluetooth.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCommandLinkButton" name="commandLinkButton_5">
+           <property name="text">
+            <string>CommandLinkButton</string>
+           </property>
+           <property name="icon">
+            <iconset resource="basictransceiver.qrc">
+             <normaloff>:/images/disconnect.png</normaloff>:/images/disconnect.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>浏览器</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1307</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>设置(&amp;S)</string>
+    </property>
+    <widget class="QMenu" name="menu_I">
+     <property name="title">
+      <string>界面风格(&amp;I)</string>
+     </property>
+     <addaction name="actionFusion"/>
+     <addaction name="actionWindows"/>
+     <addaction name="actionMotif"/>
+     <addaction name="actionCde"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="menu_I"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionK">
+   <property name="text">
+    <string>K</string>
+   </property>
+  </action>
+  <action name="actionA">
+   <property name="text">
+    <string>A</string>
+   </property>
+  </action>
+  <action name="actionFusion">
+   <property name="text">
+    <string>Fusion</string>
+   </property>
+  </action>
+  <action name="actionWindows">
+   <property name="text">
+    <string>Windows</string>
+   </property>
+  </action>
+  <action name="actionMotif">
+   <property name="text">
+    <string>Macintosh</string>
+   </property>
+  </action>
+  <action name="actionCde">
+   <property name="text">
+    <string>Windowsvista</string>
+   </property>
+  </action>
+  <action name="actionPlastique">
+   <property name="text">
+    <string>Plastique</string>
+   </property>
+  </action>
+  <action name="actionCleanlooks">
+   <property name="text">
+    <string>Cleanlooks</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>comboBox_code</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>textEdit_2</tabstop>
+ </tabstops>
+ <resources>
+  <include location="basictransceiver.qrc"/>
+ </resources>
+ <connections/>
+</ui>
